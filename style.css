@@ -138,10 +138,6 @@ li, a{
 	color: #005177;
 }
 
-.logo{
-    cursor: pointer;
-}
-
 .navi-section
 {
     list-style: none;
@@ -232,4 +228,79 @@ li.btn-take:hover{
 		cursor: pointer;
 	}
 
+
+	.footer{
+		background-color: rgba(255, 255, 255, 0.8);
+		display: flex;
+		align-items: center;
+		padding: 10px 14%;
+		word-spacing: 6px;
+		
+	}
+	.footer li, a{
+		font-family: 'Barlow Condensed', sans-serif;
+		font-size: 18px;
+		color:#3f413f;
+		text-decoration: none;
+	}
+	.footer
+	{
+		list-style: none;
+	}
+	.footer li{
+		display: inline-block;
+		padding: 35px 5px;
+	}
    
+
+	.social-icons{
+		display: flex;
+		align-items: center;
+		padding: 2px 14%;
+	}
+	.social-icons li, a{
+		text-decoration: none;
+	}
+	.social-icons{
+		list-style: none;
+	}
+	.social-icons li{
+		display: inline-block;
+		padding: 5px 5px;
+	}
+
+
+	.mobile-social{
+		display: flex;
+		
+		align-items: center;
+		padding: 2px 1%;
+	}
+	.mobile-social li, a{
+		text-decoration: none;
+	}
+	.mobile-social{
+		list-style: none;
+	}
+	.mobile-social li{
+		display: inline-block;
+		padding: 5px 5px;
+	}
+
+	.foot-about-1{
+		display: flex;
+		align-items: center;
+		padding: 30px 16%;
+		font-family: 'Barlow Condensed', sans-serif;
+		font-size: 16px;
+		color:#3f413f;
+	}
+
+	.foot-about-2{
+		display: flex;
+		align-items: center;
+		padding: 30px 16%;
+		font-family: 'Barlow Condensed', sans-serif;
+		font-size: 16px;
+		color:#3f413f;
+	}
