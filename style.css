@@ -1,0 +1,235 @@
+body {
+   background-color: white;
+   margin: auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	background-color: #006491;
+	width: 100%;
+	height: 76px;
+	position: absolute;
+	box-shadow: 0 10px 6px -4px #777;
+}
+
+.logo {
+	float: left;
+	margin-left: 17%;
+}
+
+#logo {
+	width: 65px;
+	height: 70px;
+	padding: 12px 10px;
+	position: relative;
+	margin-left: 20%;
+}
+
+.tab {
+	float: left;
+	margin-left: 0.5%;
+	padding: 12px 10px;
+	text-align: center;
+	height: 100%;
+	margin-top: 15px;
+	position: relative;
+}
+
+#tab {
+    background-color: #006491;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    width: auto;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.cart {
+	float: left;
+	margin-left: 0.5%;
+	padding: 12px 10px;
+	text-align: center;
+	height: 100%;
+	margin-top: 15px;
+	position: relative;
+	
+}
+
+#cart {
+	background-color: #006491;
+	font-family: 'Barlow Condensed', sans-serif;
+	text-decoration: none;
+	color: white;
+	padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 27.5px;
+    padding-right: 40px;
+    width: auto;
+    height: 100%;
+	
+}
+
+.userIcon{
+	right: 510px;
+	float: right;
+	margin-top: 20px;
+	position: relative;
+}
+
+.signin {
+	float:  left;
+	margin-top: 1px;
+	position: relative;
+	cursor: pointer;
+}
+
+#s {
+	background-color: #005177;
+	font-family: 'Barlow Condensed', sans-serif;
+	text-decoration: none;
+	color: white;
+	margin-left: 210px;
+	padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 103px;
+    padding-right: 50px;
+    width: auto;
+    height: 100%;
+	font-size: 16px;
+
+}
+
+#tab:hover {
+    background-color: #005177;
+    text-decoration: none;
+    color: white;
+}
+
+#line {
+	margin-top: 15px;
+	position: relative;
+	width: 60%;
+	border: 1px solid;
+	border-color: #dcdcdc;
+	background-color: #dcdcdc;
+}
+
+header2{
+    background-color: rgba(255, 255, 255, 0.8);
+	display: flex;
+    align-items: center;
+    padding: 10px 25%;
+}
+li, a{
+	font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600%;
+    font-size: 32px;
+    color:#171717;
+    text-decoration: none;
+	color: #005177;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navi-section
+{
+    list-style: none;
+}
+
+.navi-section li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+/* button{
+	font-family: 'Barlow Condensed', sans-serif;
+	color: white;
+	padding: 10px;
+	background-color: #d2112c;
+} */
+li.btn-del{
+	text-align: center;
+ font-family: 'Barlow Condensed', sans-serif;
+ font-size: 16px;
+ color: white;
+ padding: 15px;
+ width: 150px;
+ border-radius: 5px 5px 5px 5px;
+ background: #d2112c;
+ cursor: pointer;
+}
+
+li.or{
+	color: #5a5f5a;
+}
+   li.btn-take{
+	text-align: center;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 16px;
+	color: white;
+	padding: 15px;
+	width: 150px;
+	border-radius: 5px 5px 5px 5px;
+	background: #d2112c;
+    cursor: pointer;
+   }
+
+li.btn-del{
+    transition: all 0.5s ease 0s;
+}
+li.btn-take{
+    transition: all 0.5s ease 0s;
+}
+
+
+li.btn-del:hover{
+    background-color: #353535;
+}
+li.btn-take:hover{
+    background-color: #353535;
+}
+
+
+   .content{
+	   width: 100%;
+	   display: flex;
+	   padding: 0 220px;
+	   box-sizing: border-box;
+	   flex-direction: row;
+   }
+   .cheese{
+	   flex: 1;
+	   padding: 30px;
+       cursor: pointer;
+	}
+	.bakedmac{	
+		margin-top: 40px;
+		flex: 1;
+		cursor: pointer;
+		
+	}
+	.ads-banner{
+		width: 100%;
+		display: flex;
+		padding: 0 220px;
+		box-sizing: border-box;
+		flex-direction: row;
+	}
+	.ads1{
+		flex: 1;
+		padding: 30px;
+		cursor: pointer;
+	}
+
+   
